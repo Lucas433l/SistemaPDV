@@ -5,6 +5,7 @@
  */
 package main;
 
+import dao.SellDAO;
 import frames.Home;
 
 /**
@@ -14,7 +15,5 @@ import frames.Home;
 public class Main {
     public static void main(String[] args) {
         new Home().setVisible(true);
-        
-        
     }
 }
